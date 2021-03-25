@@ -10,53 +10,53 @@
           charset="utf-8">
   </head>
   <body>
-    <div class="aaa">
+    <div class="header-container">
       <img src="./eisenhower-matrix.jpg">
-      <a  class="more-inf" 
+      <a  class="header-more-inf-link" 
           href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="top-section-for-adding-element-to-list">
+    <div class="main-container">
+      <p id="title">
         <label for="new-task">Add Item</label>
       </p>
-      <div class="task-row-wrapper">
+      <div class="add-item-wrapper">
         <input id="new-task"
                class="task" 
                type="text">
         <button>Add</button>
       </div>
       <h3>Todo</h3>
-      <ul id="in-completetasks">
+      <ul id="in-complete-tasks-list">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <button class="edit-btn">Edit</button>
+          <button class="delete-btn">
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="edit-mode">
+        <li class="in-complete-tasks-item">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" 
                  value="go shopping" 
                  class="task">
-          <button class="edit">Save</button>
-          <button class="delete">
+          <button class="edit-btn">Save</button>
+          <button class="delete-btn">
             <img src="./remove.svg">
           </button>
         </li>
       </ul>
       <h3>Completed</h3>
-      <ul id="completed-tasks">
+      <ul id="completed-tasks-list">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
           <input type="text" 
                  class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <button class="edit-btn">Edit</button>
+          <button class="delete-btn">
             <img src="./remove.svg">
           </button>
         </li>
